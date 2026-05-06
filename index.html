@@ -807,6 +807,186 @@
       border-radius: 22px;
     }
   }
+  @media (max-width: 768px){
+    #page-mojvylet.page-content{
+      padding-top: 110px !important;
+    }
+
+    #page-mojvylet > section:first-child{
+      padding-top: 0.75rem !important;
+    }
+
+    #page-mojvylet h1,
+    #page-mojvylet h2{
+      scroll-margin-top: 11rem;
+    }
+  }
+  <style>
+	@media (max-width: 768px) {
+	  #page-mojvylet .mojvylet-map-shell {
+		min-height: 260px;
+		height: 260px;
+		border-radius: 16px;
+		margin-left: -0.75rem;
+		margin-right: -0.75rem;
+		width: calc(100% + 1.5rem);
+	  }
+	  #page-mojvylet .card-hover,
+	  #page-mojvylet .rounded-3xl {
+		border-radius: 18px !important;
+		padding-left: 0.7rem !important;
+		padding-right: 0.7rem !important;
+	  }
+	  #page-mojvylet .mojvylet-badge {
+		font-size: 0.77rem;
+		padding: 0.18rem 0.7rem;
+	  }
+	  #page-mojvylet .mojvylet-filter-btn {
+		font-size: 1rem;
+		padding: 0.47rem 1rem;
+	  }
+	  #mojvylet-filters {
+		overflow-x: auto;
+		padding-bottom: 0.3rem;
+		margin-left: -0.5rem;
+		margin-right: -0.5rem;
+		gap: 0.3rem;
+	  }
+	  #page-mojvylet .p-5, #page-mojvylet .md\:p-6 {
+		padding: 1rem !important;
+	  }
+	}
+	</style>
+</style>
+
+
+<style>
+  @media (max-width: 768px) {
+    body {
+      -webkit-text-size-adjust: 100%;
+      overscroll-behavior-y: none;
+    }
+
+    .page-content {
+      padding-top: 78px !important;
+    }
+
+    nav .max-w-7xl {
+      padding-left: 0.75rem !important;
+      padding-right: 0.75rem !important;
+    }
+
+    #page-mojvylet > section {
+      padding-top: 1.25rem !important;
+      padding-bottom: 1.75rem !important;
+    }
+
+    #page-mojvylet .max-w-7xl,
+    #page-mojvylet .max-w-6xl {
+      width: calc(100% - 0.75rem) !important;
+      max-width: none !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+
+    #page-mojvylet h1 {
+      font-size: clamp(2rem, 7vw, 2.75rem) !important;
+      line-height: 1.05 !important;
+      text-wrap: balance;
+    }
+
+    #page-mojvylet h2 {
+      font-size: clamp(1.35rem, 5vw, 2rem) !important;
+      line-height: 1.12 !important;
+      text-wrap: balance;
+    }
+
+    #page-mojvylet .space-y-8 {
+      gap: 1.25rem !important;
+    }
+
+    #page-mojvylet .bg-white.rounded-3xl.shadow-2xl,
+    #page-mojvylet .bg-white.rounded-3xl.shadow-2xl.p-5,
+    #page-mojvylet .bg-white.rounded-3xl.shadow-2xl.p-6,
+    #page-mojvylet .card-hover {
+      border-radius: 18px !important;
+    }
+
+    #page-mojvylet .bg-white.rounded-3xl.shadow-2xl.p-5,
+    #page-mojvylet .bg-white.rounded-3xl.shadow-2xl.p-6 {
+      padding: 1rem !important;
+    }
+
+    #page-mojvylet #mojvylet-filters {
+      display: flex !important;
+      flex-wrap: nowrap !important;
+      overflow-x: auto !important;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+      gap: 0.4rem !important;
+      padding-bottom: 0.4rem !important;
+      margin-left: -0.25rem !important;
+      margin-right: -0.25rem !important;
+      padding-left: 0.25rem !important;
+      padding-right: 0.25rem !important;
+    }
+
+    #page-mojvylet #mojvylet-filters::-webkit-scrollbar {
+      display: none;
+    }
+
+    #page-mojvylet .mojvylet-filter-btn {
+      flex: 0 0 auto;
+      font-size: 0.92rem !important;
+      padding: 0.55rem 0.9rem !important;
+    }
+
+    #page-mojvylet .mojvylet-map-shell {
+      min-height: 240px !important;
+      height: clamp(240px, 54vw, 320px) !important;
+      border-radius: 16px !important;
+      margin-left: -0.25rem;
+      margin-right: -0.25rem;
+      width: calc(100% + 0.5rem);
+    }
+
+    #page-mojvylet .mojvylet-day-card summary {
+      padding: 1rem !important;
+    }
+
+    #page-mojvylet .mojvylet-day-card .px-5,
+    #page-mojvylet .mojvylet-day-card .px-6,
+    #page-mojvylet .mojvylet-day-card .px-5.md\:px-6 {
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+    }
+
+    #page-mojvylet .mojvylet-stop-item {
+      padding: 0.9rem !important;
+    }
+
+    #page-mojvylet .mojvylet-stop-item .flex.items-start.justify-between {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    #page-mojvylet .mojvylet-stop-item .mojvylet-badge {
+      margin-top: 0.55rem;
+    }
+
+    #page-mojvylet .flex.flex-wrap.items-center.justify-between.gap-3 {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    #page-mojvylet .text-sm.text-slate-500.mt-1 {
+      max-width: none;
+    }
+
+    #page-mojvylet .mojvylet-mini-stat {
+      border-radius: 16px !important;
+    }
+  }
 </style>
 
 </head>
@@ -893,11 +1073,20 @@
 
 <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight" id="hero-title">Objavte krásy<br><span class="text-green-600" style="">Slovenska</span></h1>
 <p class="text-lg sm:text-xl text-white/95 mb-8 max-w-xl mx-auto lg:mx-0" id="hero-subtitle">Špecializujeme sa na výlety na mieru. Už cca 3 mesiace vytvárame nezabudnuteľné zážitky pre spokojných cestovateľov.</p>
-<div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"><button class="px-8 py-4 bg-white text-green-600 font-semibold rounded-full hover:shadow-xl hover:shadow-black/20 transition-all hover:-translate-y-1 flex items-center justify-center gap-2" onclick="showPage('vylet')">
-<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-</svg> Nájsť výlet </button> <button class="px-8 py-4 glass-effect text-white font-semibold rounded-full hover:bg-white/20 transition-all flex items-center justify-center gap-2" onclick="showPage('onas')"> Dozvedieť sa viac 
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-</svg></button>
+<div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+  <button class="px-8 py-4 bg-white text-green-600 font-semibold rounded-full hover:shadow-xl hover:shadow-black/20 transition-all hover:-translate-y-1 flex items-center justify-center gap-2" onclick="showPage('vylet')">
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+    </svg>
+    Nájsť výlet
+  </button>
+
+  <button class="px-8 py-4 bg-white text-green-600 font-semibold rounded-full hover:shadow-xl hover:shadow-black/20 transition-all hover:-translate-y-1 flex items-center justify-center gap-2" onclick="showPage('onas')">
+    Dozvedieť sa viac
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+    </svg>
+  </button>
 </div>
 </div><!-- Hero Image/Illustration -->
 <div class="relative animate-fade-in-up" style="animation-delay: 0.3s;">
@@ -917,7 +1106,7 @@
 </div>
 </section><!-- Stats Section -->
 <section class="py-16 bg-white">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
 <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
 <div class="text-center p-6 rounded-2xl bg-gradient-to-br from-emerald-50 to-green-50 card-hover">
 <div class="w-16 h-16 mx-auto mb-4 bg-green-100 rounded-2xl flex items-center justify-center">
@@ -1215,26 +1404,22 @@
 </section>
 </div><!-- Page: O nás -->
 <div class="page-content pt-28 hidden" id="page-mojvylet">
-  <section class="py-16 bg-gradient-to-br from-green-50 via-white to-emerald-50">
+  <section class="py-12 sm:py-16 bg-gradient-to-br from-green-50 via-white to-emerald-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="mb-10 animate-fade-in-up">
+      <div class="mb-8 sm:mb-10 animate-fade-in-up">
         <h1 class="font-display text-4xl sm:text-5xl font-bold text-gray-800 mb-4">Môj výlet</h1>
         <p class="text-lg text-slate-600 max-w-4xl">
           10-dňový program po Banskej Štiavnici, Kremnici, Banskej Bystrici a okolí. Klikni na deň alebo na miesto na mape a zobrazí sa len vybraná časť programu.
         </p>
       </div>
 
-      <div class="grid lg:grid-cols-[1.1fr_0.9fr] gap-8 items-start">
-        <div class="space-y-8">
-          <div class="bg-white rounded-3xl shadow-2xl p-5 md:p-6 card-hover">
+      <div class="grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-5 sm:gap-6 lg:gap-8 items-start">
+        <div class="space-y-5 sm:space-y-8">
+          <div class="bg-white rounded-3xl shadow-2xl p-4 sm:p-5 md:p-6 card-hover">
             <div class="flex flex-col gap-4 mb-4">
               <div class="flex flex-wrap items-center justify-between gap-3">
                 <div>
                   <h2 class="font-display text-2xl md:text-3xl font-bold text-gray-800">Mapa programu</h2>
-                  <p id="mojvylet-active-label" class="text-sm text-slate-500 mt-1">Zobrazuje sa celý program.</p>
-                </div>
-                <div class="text-sm text-slate-500">
-                  Klikni na deň alebo miesto
                 </div>
               </div>
 
@@ -1246,16 +1431,13 @@
             </div>
 
             <div class="mt-4 flex flex-wrap items-center justify-between gap-3 text-sm text-slate-500">
-              <span>Modré značky = zastávky programu</span>
-              <span>Vybraný deň sa automaticky priblíži</span>
             </div>
           </div>
 
-          <div class="bg-white rounded-3xl shadow-2xl p-5 md:p-6 card-hover">
+          <div class="bg-white rounded-3xl shadow-2xl p-4 sm:p-5 md:p-6 card-hover">
             <div class="flex items-center justify-between gap-3 mb-5">
               <div>
                 <h2 class="font-display text-2xl md:text-3xl font-bold text-gray-800">Program po dňoch</h2>
-                <p class="text-sm text-slate-500 mt-1">Každý deň je prehľadne rozdelený a dá sa zobraziť samostatne.</p>
               </div>
             </div>
             <div id="mojvylet-days" class="space-y-4"></div>
@@ -1281,38 +1463,10 @@
         <h1 class="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 mb-5 leading-tight">Príbeh cestovnej kancelárie <span class="gradient-text">Cesta</span></h1>
         <p class="text-lg text-slate-600 mb-4">Sme skupina žiakov, ktorí robia na projekte z geografie.</p>
         <p class="text-slate-600 leading-relaxed mb-6">Cestovná kancelária Cesta vznikla ako školský projekt. Dostali sme zadanie, spravili web a zabalili doň 10-dňový program pre stredné Slovensko.</p>
-        <div class="grid grid-cols-3 gap-3">
-          <div class="rounded-2xl bg-green-50 border border-[#dbe7dc] p-4 text-center">
-            <div class="text-2xl font-bold text-[#0b1b08]">10</div>
-            <div class="text-xs text-slate-500">dní programu</div>
-          </div>
-          <div class="rounded-2xl bg-green-50 border border-[#dbe7dc] p-4 text-center">
-            <div class="text-2xl font-bold text-[#0b1b08]">3</div>
-            <div class="text-xs text-slate-500">banské mestá</div>
-          </div>
-          <div class="rounded-2xl bg-green-50 border border-[#dbe7dc] p-4 text-center">
-            <div class="text-2xl font-bold text-[#0b1b08]">UNESCO</div>
-            <div class="text-xs text-slate-500">zastávky</div>
-          </div>
-        </div>
-      </div>
-    </div>
+            </div>
   </div>
 
-  <div class="grid md:grid-cols-3 gap-6 mb-10">
-    <div class="bg-white rounded-2xl shadow-lg border border-[#dbe7dc] p-6 card-hover">
-      <h3 class="font-display text-2xl font-bold text-gray-800 mb-2">Školský projekt</h3>
-      <p class="text-slate-600 leading-relaxed">Web vznikol ako projekt z geografie, ale snažili sme sa ho spraviť vizuálne aj obsahovo čo najprehladnejší.</p>
-    </div>
-    <div class="bg-white rounded-2xl shadow-lg border border-[#dbe7dc] p-6 card-hover">
-      <h3 class="font-display text-2xl font-bold text-gray-800 mb-2">Prehľadný obsah</h3>
-      <p class="text-slate-600 leading-relaxed">Každý deň výletu je rozdelený na jasné zastávky, aby sa v programe dalo ľahko orientovať aj na mobile.</p>
-    </div>
-    <div class="bg-white rounded-2xl shadow-lg border border-[#dbe7dc] p-6 card-hover">
-      <h3 class="font-display text-2xl font-bold text-gray-800 mb-2">Stredné Slovensko</h3>
-      <p class="text-slate-600 leading-relaxed">Zamerali sme sa na banské mestá, tajchy, jaskyne, drevené kostoly aj lokality UNESCO.</p>
-    </div>
-  </div>
+  
 
   <div class="bg-white rounded-3xl shadow-2xl p-6 md:p-10 mb-10 card-hover">
     <h2 class="font-display text-3xl font-bold text-gray-800 text-center mb-8">Recenzie našich klientov</h2>
@@ -1617,7 +1771,14 @@
     function syncTopSpacing() {
       document.body.classList.toggle('is-at-top', window.scrollY < 12);
     }
+    function refreshMojVyletMap() {
+      if (window.mojvyletMap) {
+        setTimeout(() => window.mojvyletMap.invalidateSize(), 120);
+      }
+    }
     window.addEventListener('scroll', syncTopSpacing, { passive: true });
+    window.addEventListener('resize', refreshMojVyletMap, { passive: true });
+    window.addEventListener('orientationchange', refreshMojVyletMap, { passive: true });
     window.addEventListener('load', syncTopSpacing);
     syncTopSpacing();
   })();
@@ -1889,14 +2050,41 @@ function renderMojVylet() {
   const bounds = [];
 
   filteredStops.forEach(stop => {
-    const marker = L.marker(stop.coords);
-    marker.bindPopup(`
-      <div style="min-width:180px">
-        <strong>${escapeHtml(stop.name)}</strong><br>
-        <span style="color:#475569">${escapeHtml(stop.dayLabel)}</span><br>
-        <span style="display:block;margin-top:4px">${escapeHtml(stop.note)}</span>
-      </div>
-    `);
+    // SVG ZELENÝ MARKER - TMAVO ZELENÁ (#284f0c)
+	const zelenyMarkerSVG = encodeURIComponent(
+	  `<svg width="32" height="48" viewBox="0 0 32 48" xmlns="http://www.w3.org/2000/svg">
+		  <path 
+			d="
+			  M 16 3
+			  A 13 13 0 1 1 3 16
+			  C 3 28 16 47 16 47
+			  C 16 47 29 28 29 16
+			  A 13 13 0 1 1 16 3
+			  Z"
+			fill="#284f0c"
+		  />
+		  <circle cx="16" cy="16" r="6" fill="#ffffff"/>
+		</svg>`
+	);
+	const greenIcon = L.icon({
+	  iconUrl: 'data:image/svg+xml,' + zelenyMarkerSVG,
+	  iconSize: [32, 48],
+	  iconAnchor: [16, 47],
+	  popupAnchor: [0, -38]
+	});
+
+	filteredStops.forEach(stop => {
+	  const marker = L.marker(stop.coords, { icon: greenIcon }); // ⬅️ použije zelený marker
+	  marker.bindPopup(`
+		<div style="min-width:180px">
+		  <strong>${escapeHtml(stop.name)}</strong><br>
+		  <span style="color:#475569">${escapeHtml(stop.dayLabel)}</span><br>
+		  <span style="display:block;margin-top:4px">${escapeHtml(stop.note)}</span>
+		</div>
+	  `);
+	  marker.addTo(mojvyletMarkerLayer);
+	  bounds.push(stop.coords);
+	});
     marker.addTo(mojvyletMarkerLayer);
     bounds.push(stop.coords);
   });
